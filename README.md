@@ -2,7 +2,8 @@
 # Student Management System
 A Python implementation of a simple student registry system using Object-Oriented Programming (OOP). It defines classes for managing individual students and a dedicated class for handling a sorted list of all registered students.
 
-## Features* **OOP Design:** Utilizes three classes: `Student`, `Student2BA` (inherits from `Student`), and `StudentList`.
+## Features* **OOP Design:
+** Utilizes three classes: `Student`, `Student2BA` (inherits from `Student`), and `StudentList`.
 * **Unique Student Numbers:** Automatically assigns a unique sequential number to each new student using a class variable.
 * **Data Structure:** The `StudentList` maintains students in a sequence, sorted by student number.
 * **Efficient Searching:** Implements **binary search** (`search()`) for fast retrieval of students by their unique number.
@@ -29,7 +30,8 @@ A Python implementation of a simple student registry system using Object-Oriente
 * **Attribute:** `studList` (a list of student objects, sorted by number).
 * **Key Methods:** `register()`, `findStudentNo()` (uses binary search), `findStudentName()` (uses sequential search), `deRegister()`, and `importStudents()`.
 
-## Key Algorithms###Binary Search for Student NumberThe `search(self, key)` method within `StudentList` uses binary search to quickly find a student based on their unique, sequential student number (`key`).
+## Key Algorithms
+###Binary Search for Student NumberThe `search(self, key)` method within `StudentList` uses binary search to quickly find a student based on their unique, sequential student number (`key`).
 
 This is highly efficient because the `studList` is guaranteed to be sorted by the student number.
 
