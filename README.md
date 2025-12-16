@@ -12,7 +12,8 @@ A Python implementation of a simple student registry system using Object-Oriente
 * **File Import:** Can load student data from a tab-separated text file using `importStudents()`.
 * **Registration Management:** Functions for registering new students (`register()`) and deregistering existing students (`deRegister()`).
 
-## Project StructureThe code defines three main classes:
+## Project Structure
+The code defines three main classes:
 
 ###1. `Student`The base class for all students.
 
